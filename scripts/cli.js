@@ -65,7 +65,7 @@ export async function cli(args) {
         console.log(version);
         return;
     }
-    console.log(options);
+    // console.log(options);
     options = await promptForMissingOptions(options);
     let output;
     if (options.format == "Base64") {
